@@ -1,7 +1,7 @@
 Easy expressjs predefined and configurable server.
 
 ###Install
-`npm -g install ees`
+`npm -g install easy-express-server`
 
 ###Usage
 EES is a CLI tool for prepare and start an expressjs aplication based on a json properties file.

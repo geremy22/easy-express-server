@@ -1,21 +1,49 @@
 {
-  "name": "ees",
+  "name": "easy-express-server",
   "version": "0.0.1",
   "description": "Easy expressjs predefined and configurable server",
   "main": "index.js",
   "bin": {
-  	"ees": "./command.js"
+    "ees": "./command.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "German Velazquez",
-  "license": "MIT",
+  "keywords": [
+    "easy",
+    "expressjs",
+    "server",
+    "simple",
+    "dynamic"
+  ],
   "dependencies": {
     "express": "4.5.x",
     "express-ws": "2.0.x",
     "easy-module-loader": "0.0.x",
     "upath": "0.1.x",
     "commander": "2.9.x"
-  }
+  },
+  "author": "German Velazquez",
+  "homepage": "https://github.com/geremy22/easy-express-server#readme",
+  "bugs": {
+    "url": "https://github.com/geremy22/easy-express-server/issues"
+  },
+  "maintainers": [
+    {
+      "email": "germanmanuelvelazquez@gmail.com",
+      "name": "germagik"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geremy22/easy-express-server.git"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "command.js",
+    "examples.md"
+  ]
 }
