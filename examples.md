@@ -1,6 +1,6 @@
 ###Examples
 ####Simple static server
-/home/dev/test/static/index.html
+/home/dev/test/static/index.html<br/>
 /home/dev/test/ees_properties.json
 ```
 {
@@ -76,16 +76,16 @@ HTTP server started: 10.257ms
 Application started: 50.468ms
 ```
 In the browser:
-http://localhost:8080/ => index!!
-http://localhost:8080/login => login!!
+http://localhost:8080/ => index!!<br/>
+http://localhost:8080/login => login!!<br/>
 http://localhost:8080/content => content!!
 
 ####Https application
-/home/dev/test/ees_properties.json
-/home/dev/test/www/index.js
-/home/dev/test/www/login/login.js
-/home/dev/test/www/content/content.js
-/home/dev/test/ssl/server.key
+/home/dev/test/ees_properties.json<br/>
+/home/dev/test/www/index.js<br/>
+/home/dev/test/www/login/login.js<br/>
+/home/dev/test/www/content/content.js<br/>
+/home/dev/test/ssl/server.key<br/>
 /home/dev/test/ssl/server.crt
 ```
 {
@@ -120,11 +120,11 @@ HTTPS server started: 25.300ms
 Application started: 67.076ms
 ```
 ####File name based loaders
-Note the change in the file names and the filters in the loaders.
-/home/dev/test/ees_properties.json
-/home/dev/test/www/index.get.js
-/home/dev/test/www/login/login.get.js
-/home/dev/test/www/content/content.post.js
+Note the change in the file names and the filters in the loaders.<br/>
+/home/dev/test/ees_properties.json<br/>
+/home/dev/test/www/index.get.js<br/>
+/home/dev/test/www/login/login.get.js<br/>
+/home/dev/test/www/content/content.post.js<br/>
 /home/dev/test/www/ignoreme/ignoreme.js
 ```
 {
