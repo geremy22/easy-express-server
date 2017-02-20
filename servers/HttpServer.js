@@ -16,4 +16,4 @@ class HttpServer extends Server{
     }
 }
 
-module.exports = HttpServer;
+exports.HttpServer = HttpServer;

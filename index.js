@@ -43,7 +43,7 @@ function applyLoaders(app,loader,loadersSettings){
 function load(propertiesPath){
 	var app = express(),
 		PROPS = app.eesproperties = jsonRequirer(propertiesPath);
-		PROPS.main = PROPS.main ? up.resolve(up.dirname(propertiesPath), PROPS.main) : up.dirname(propertiesPath);
+		app._main = PROPS.main = PROPS.main ? up.resolve(up.dirname(propertiesPath), PROPS.main) : up.dirname(propertiesPath);
 
 	console.log("Starting express application: " + PROPS.app);
 

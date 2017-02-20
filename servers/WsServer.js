@@ -13,4 +13,4 @@ class WsServer extends Server{
     }
 }
 
-module.exports = StaticServer;
+exports.WsServer = WsServer;

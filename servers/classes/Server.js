@@ -10,4 +10,4 @@ class Server {
     start(){}
 }
 
-module.exports = Server;
+exports.Server = Server;

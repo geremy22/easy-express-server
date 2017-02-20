@@ -1,4 +1,4 @@
-#! node
+#!/usr/bin/env node
 var program = require("commander"),
 	up = require("upath"),
 	apploader = require("./index");

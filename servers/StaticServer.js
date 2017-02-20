@@ -13,4 +13,4 @@ class StaticServer extends Server{
     }
 }
 
-module.exports = StaticServer;
+exports.StaticServer = StaticServer;
